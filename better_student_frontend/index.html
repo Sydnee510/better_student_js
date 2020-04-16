@@ -9,13 +9,23 @@
     </head>
     <body>
         <div class="container">
+            <h1>Quiz App</h1>
+            <div id="new-quiz-container">
             <form id="new-quiz-form">
                 <input type="string" placeholder="title"/>
                 <input type="integer" placeholder="number of questions"/>
                 <input type="submit"/>
             </form>
+        </div>
+            <div id="quizzes-container">
+
+            </div>
 
         </div>
+        <script src="src/components/quizzes.js"></script>
+        <script src="src/components/app.js"></script>
+        <script src="src/adapters/QuizzesAdapter.js"></script>
+        <script src="src/index.js"></script>
         
     </body>
 </html>
