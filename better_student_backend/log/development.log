@@ -13,3 +13,37 @@ Migrating to CreateQuizzes (20200416095217)
   [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (6.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuiz Create (3.0ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "num_of_questions", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "math"], ["num_of_questions", 5], ["score", 0], ["created_at", "2020-04-16 10:06:07.380861"], ["updated_at", "2020-04-16 10:06:07.380861"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuiz Create (0.5ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "num_of_questions", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "oop"], ["num_of_questions", 3], ["score", 0], ["created_at", "2020-04-16 10:06:07.392747"], ["updated_at", "2020-04-16 10:06:07.392747"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuiz Create (0.4ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "num_of_questions", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "english"], ["num_of_questions", 5], ["score", 0], ["created_at", "2020-04-16 10:06:07.401027"], ["updated_at", "2020-04-16 10:06:07.401027"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuiz Create (0.3ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "num_of_questions", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "science"], ["num_of_questions", 6], ["score", 0], ["created_at", "2020-04-16 10:06:07.407897"], ["updated_at", "2020-04-16 10:06:07.407897"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mQuiz Load (0.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "quizzes"[0m
+Started GET "/" for ::1 at 2020-04-16 03:08:17 -0700
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/syd/.rvm/gems/ruby-2.6.1/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/syd/.rvm/gems/ruby-2.6.1/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.4ms | Allocations: 480)
+Completed 200 OK in 38ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 2634)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-16 03:08:23 -0700
+Processing by QuizzesController#index as HTML
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 13.3ms | ActiveRecord: 1.0ms | Allocations: 5792)
+
+
