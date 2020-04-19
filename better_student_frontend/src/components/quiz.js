@@ -4,4 +4,7 @@ class Quiz {
         this.title = quizJSON.title
         this.num_of_questions = quizJSON.num_of_questions
     }
+    renderLi(){
+        return `<li>${this.title}, ${this.num_of_questions}</li>`
+    }
 }
