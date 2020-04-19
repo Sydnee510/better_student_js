@@ -335,3 +335,1740 @@ Processing by QuizzesController#index as */*
 Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 1301)
 
 
+Started GET "/quizzes" for ::1 at 2020-04-19 00:12:27 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 6.3ms | ActiveRecord: 1.0ms | Allocations: 5506)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:18:50 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms | Allocations: 1312)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:20:06 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms | Allocations: 1292)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:23:42 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 1292)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:26:46 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 1292)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:38:16 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 1312)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:39:29 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms | Allocations: 1292)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:40:04 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 1292)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:46:02 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1312)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:50:18 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1292)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:53:43 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1292)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 00:56:40 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 1295)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 01:07:00 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 21ms (Views: 10.6ms | ActiveRecord: 0.3ms | Allocations: 5163)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 01:09:06 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1292)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 01:10:22 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 1292)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 01:15:37 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms | Allocations: 1312)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:15:42 -0700
+Processing by QuizzesController#create as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 562)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007fde84872278>
+Did you mean?  try):
+  
+app/controllers/quizzes_controller.rb:11:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 01:17:37 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1291)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:17:42 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 548)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007fde81999ed8>
+Did you mean?  try):
+  
+app/controllers/quizzes_controller.rb:11:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 01:19:08 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 1.7ms | Allocations: 5514)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:19:14 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 549)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007fde848fe638>
+Did you mean?  try):
+  
+app/controllers/quizzes_controller.rb:11:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 01:19:32 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.9ms | Allocations: 5515)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:19:39 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 550)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007fde824a9a08>
+Did you mean?  try):
+  
+app/controllers/quizzes_controller.rb:11:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 01:21:16 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:21:22 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 548)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007fde849adc28>
+Did you mean?  try):
+  
+app/controllers/quizzes_controller.rb:11:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 01:23:14 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 30ms (Views: 21.6ms | ActiveRecord: 7.1ms | Allocations: 5513)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:23:26 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 548)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007fde814f6ac0>
+Did you mean?  try):
+  
+app/controllers/quizzes_controller.rb:11:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 01:24:09 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:24:16 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 547)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007fde81a02ca8>
+Did you mean?  try):
+  
+app/controllers/quizzes_controller.rb:11:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 01:24:34 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:24:39 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 547)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007fde824ac500>
+Did you mean?  try):
+  
+app/controllers/quizzes_controller.rb:11:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 01:31:51 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1321)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:32:00 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 547)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007fde81564688>
+Did you mean?  try):
+  
+app/controllers/quizzes_controller.rb:11:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 01:34:06 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 13.0ms | ActiveRecord: 1.7ms | Allocations: 5513)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:34:13 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 124)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 01:35:07 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 01:35:12 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started POST "/quizzes" for ::1 at 2020-04-19 01:45:08 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started POST "/quizzes" for ::1 at 2020-04-19 01:45:55 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started POST "/quizzes" for ::1 at 2020-04-19 01:51:13 -0700
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Started GET "/quizzes" for ::1 at 2020-04-19 01:51:17 -0700
+Completed 400 Bad Request in 1273337ms (ActiveRecord: 0.4ms | Allocations: 25540)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Started POST "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#create as */*
+Processing by QuizzesController#index as HTML
+Processing by QuizzesController#index as */*
+Processing by QuizzesController#index as */*
+  Parameters: {"quiz"=>{}}
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.3ms | Allocations: 122)
+
+
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.2ms | Allocations: 8426)
+
+
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.2ms | Allocations: 7520)
+
+
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.5ms | Allocations: 6644)
+
+
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.2ms | Allocations: 36067)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Processing by QuizzesController#index as */*
+Processing by QuizzesController#index as */*
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms | Allocations: 1397)
+
+
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Started POST "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.1ms | Allocations: 4822)
+
+
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 3400)
+
+
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.1ms | Allocations: 3461)
+
+
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.1ms | Allocations: 6470)
+
+
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.2ms | Allocations: 1303)
+
+
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Processing by QuizzesController#index as */*
+Processing by QuizzesController#index as */*
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.2ms | Allocations: 30452)
+
+
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.1ms | Allocations: 30162)
+
+
+Processing by QuizzesController#index as HTML
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 3098)
+
+
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+Started GET "/quizzes" for ::1 at 2020-04-19 02:12:26 -0700
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.1ms | Allocations: 1923)
+
+
+Processing by QuizzesController#index as */*
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 1980)
+
+
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.5ms | Allocations: 1908)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:15:30 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:15:35 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:16:21 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:16:28 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:16:39 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:17:08 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:17:14 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:18:53 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (1.9ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.9ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:24:20 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:24:21 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1321)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:24:50 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:24:52 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:25:01 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:33:07 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (2.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 2.3ms | Allocations: 1321)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:33:21 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:41:14 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1321)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:41:47 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:42:50 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:42:58 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:43:41 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:43:45 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 02:44:27 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:44:32 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:44:55 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:45:34 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:45:42 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:46:18 -0700
+Processing by QuizzesController#index as HTML
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 1299)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:46:19 -0700
+Processing by QuizzesController#index as HTML
+  [1m[36mQuiz Load (0.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.5ms | Allocations: 1299)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:48:53 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 25ms (Views: 13.1ms | ActiveRecord: 3.4ms | Allocations: 5515)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:50:29 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:52:29 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:54:05 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:54:34 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:55:05 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:55:33 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:55:38 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:57:11 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 1.1ms | Allocations: 5478)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:57:17 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 02:59:53 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 02:59:58 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 03:01:49 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 03:01:54 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 03:03:38 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:03:47 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:04:01 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:04:54 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:06:03 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:06:36 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:06:42 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:11:25 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:15:05 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:15:12 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:15:41 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:15:47 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:17:09 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:17:17 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:18:15 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:18:50 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 8.2ms | ActiveRecord: 0.9ms | Allocations: 5514)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:18:56 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:19:00 -0700
+Processing by QuizzesController#index as HTML
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1299)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:19:01 -0700
+Processing by QuizzesController#index as HTML
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1299)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:19:24 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.7ms | Allocations: 5479)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:19:47 -0700
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.8ms | Allocations: 5794)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:19:53 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1318)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:22:34 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1318)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 03:22:40 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Started POST "/quizzes" for ::1 at 2020-04-19 03:22:42 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 51867ms (ActiveRecord: 0.0ms | Allocations: 79654)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 03:26:17 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms | Allocations: 1320)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 03:26:24 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Started GET "/quizzes" for ::1 at 2020-04-19 03:28:32 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms | Allocations: 1320)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 03:28:38 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Started GET "/quizzes" for ::1 at 2020-04-19 03:29:21 -0700
+Completed 400 Bad Request in 88629ms (ActiveRecord: 0.0ms | Allocations: 9903)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Completed 400 Bad Request in 262879ms (ActiveRecord: 0.0ms | Allocations: 49837)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 03:31:11 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 9.2ms | ActiveRecord: 1.4ms | Allocations: 5797)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:31:17 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1318)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:31:40 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 1.0ms | Allocations: 5529)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:31:44 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 1318)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:34:34 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 25ms (Views: 19.2ms | ActiveRecord: 1.2ms | Allocations: 5490)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:37:03 -0700
+Processing by QuizzesController#index as HTML
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 03:44:08 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.3ms | Allocations: 5173)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 03:44:14 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Started GET "/quizzes" for ::1 at 2020-04-19 03:49:25 -0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.4ms | Allocations: 1320)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 03:49:31 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 64563ms (ActiveRecord: 0.0ms | Allocations: 7569)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 03:50:46 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1299)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 03:50:55 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:11:in `create'
+  [1m[36mQuiz Load (0.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" ORDER BY "quizzes"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ (pry):7:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 03:52:36 -0700
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 8.6ms | ActiveRecord: 1.8ms | Allocations: 5794)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 03:52:41 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:11:in `create'
+Completed 400 Bad Request in 567835ms (ActiveRecord: 0.4ms | Allocations: 22554)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:02:37 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.2ms | Allocations: 1316)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:02:48 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Started POST "/quizzes" for ::1 at 2020-04-19 04:03:26 -0700
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Started GET "/quizzes" for ::1 at 2020-04-19 04:03:39 -0700
+Completed 400 Bad Request in 22675ms (ActiveRecord: 0.3ms | Allocations: 13365)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.7ms | Allocations: 5842)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 04:07:18 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 1318)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:07:22 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 122)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:07:34 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 04:14:29 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 1321)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:14:35 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 122)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:15:13 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:15:19 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:16:26 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 12.9ms | ActiveRecord: 1.6ms | Allocations: 5513)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:16:34 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:17:15 -0700
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 7.1ms | ActiveRecord: 0.8ms | Allocations: 5794)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:17:20 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 130)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:17:44 -0700
+Processing by QuizzesController#index as HTML
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 1316)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 04:24:50 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1321)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:24:54 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started POST "/quizzes" for ::1 at 2020-04-19 04:24:56 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 122)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:29:57 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms | Allocations: 1317)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:30:04 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:31:28 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:31:33 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:32:16 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1315)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:32:22 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:33:07 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 1300)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:33:15 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:33:43 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1314)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 04:34:44 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 04:34:52 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:39:24 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 04:40:17 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.9ms | Allocations: 5529)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 04:45:10 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 04:56:08 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms | Allocations: 3812)
+
+
+  
+NoMethodError (undefined method `validates_attributes' for #<Class:0x00007fe3634125f0>
+Did you mean?  validates_associated):
+  
+app/models/quiz.rb:2:in `<class:Quiz>'
+app/models/quiz.rb:1:in `<main>'
+app/controllers/quizzes_controller.rb:3:in `index'
+Started GET "/quizzes" for ::1 at 2020-04-19 04:58:26 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 25ms (Views: 18.1ms | ActiveRecord: 1.3ms | Allocations: 5624)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:00:24 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 05:00:28 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Started POST "/quizzes" for ::1 at 2020-04-19 05:00:30 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Started GET "/quizzes" for ::1 at 2020-04-19 05:02:55 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 1.0ms | Allocations: 5864)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 05:03:01 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 31582ms (ActiveRecord: 0.0ms | Allocations: 11542)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 05:04:35 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.2ms | Allocations: 1323)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 05:04:40 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 16557ms (ActiveRecord: 0.0ms | Allocations: 7503)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 05:08:35 -0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 21ms (Views: 16.9ms | ActiveRecord: 1.2ms | Allocations: 5571)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 05:08:41 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 31186ms (ActiveRecord: 0.0ms | Allocations: 7482)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started POST "/quizzes" for ::1 at 2020-04-19 05:09:20 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 14821ms (ActiveRecord: 0.0ms | Allocations: 7504)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started POST "/quizzes" for ::1 at 2020-04-19 05:09:38 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.4ms | Allocations: 139)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 05:10:28 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.7ms | Allocations: 4726)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:21:08 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 1321)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 05:21:19 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: quiz):
+  
+app/controllers/quizzes_controller.rb:27:in `quiz_params'
+app/controllers/quizzes_controller.rb:12:in `create'
+Started GET "/quizzes" for ::1 at 2020-04-19 05:22:21 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 1300)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:22:26 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 1309)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:25:25 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (1.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.3ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:25:30 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1315)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:30:07 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 1302)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:30:13 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:30:42 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:30:48 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:30:55 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:32:31 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:32:38 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1301)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:42:41 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1321)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 05:42:53 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{"title"=>"new", "num_of_questions"=>"3"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[36mQuiz Create (10.9ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "num_of_questions", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "new"], ["num_of_questions", 3], ["created_at", "2020-04-19 12:42:53.223110"], ["updated_at", "2020-04-19 12:42:53.223110"]]
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+Completed 200 OK in 20ms (Views: 0.9ms | ActiveRecord: 14.1ms | Allocations: 2406)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 05:43:14 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{"title"=>"history", "num_of_questions"=>"4"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[36mQuiz Create (0.5ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "num_of_questions", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "history"], ["num_of_questions", 4], ["created_at", "2020-04-19 12:43:14.064964"], ["updated_at", "2020-04-19 12:43:14.064964"]]
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 3.0ms | Allocations: 2193)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 05:44:16 -0700
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 1579)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 05:44:26 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{"title"=>"sexed", "num_of_questions"=>"2"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[36mQuiz Create (0.5ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "num_of_questions", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "sexed"], ["num_of_questions", 2], ["created_at", "2020-04-19 12:44:26.350974"], ["updated_at", "2020-04-19 12:44:26.350974"]]
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 2.9ms | Allocations: 2193)
+
+

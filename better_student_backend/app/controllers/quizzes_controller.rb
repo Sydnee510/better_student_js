@@ -1,21 +1,22 @@
 class QuizzesController < ApplicationController
     def index
         @quizzes = Quiz.all 
-        render json: @quizzes
+        render json: @quizzes, status: 200
     end
     def show 
         @quiz = Quiz.find(params[:id])
-        render json: @quiz
+        render json: @quiz, status: 200
     end
     def create 
-        @quiz = Quiz.create(quiz_params)
-        #@quiz.save
-        render json: @quiz
+       #binding.pry
+        @quiz = Quiz.new(quiz_params)
+        @quiz.save
+        render json: @quiz, status: 200
     end
     def update 
         @quiz = Quiz.find(params[:id])
         @quiz.update(quiz_params)
-        render json: @quiz
+        render json: @quiz, status: 200
     end
     def destroy
         @quiz = Quiz.find(params[:id]).destroy
