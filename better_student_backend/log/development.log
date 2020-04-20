@@ -2072,3 +2072,62 @@ Processing by QuizzesController#create as */*
 Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 2.9ms | Allocations: 2193)
 
 
+Started GET "/quizzes" for ::1 at 2020-04-19 22:37:39 -0700
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (2.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 8.8ms | ActiveRecord: 3.4ms | Allocations: 6280)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 22:38:05 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{"title"=>"anthro", "num_of_questions"=>"3"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[36mQuiz Create (3.2ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "num_of_questions", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "anthro"], ["num_of_questions", 3], ["created_at", "2020-04-20 05:38:05.466890"], ["updated_at", "2020-04-20 05:38:05.466890"]]
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 6.4ms | Allocations: 2422)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 22:41:41 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{"title"=>"dance", "num_of_questions"=>"3"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[36mQuiz Create (1.0ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "num_of_questions", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "dance"], ["num_of_questions", 3], ["created_at", "2020-04-20 05:41:41.203921"], ["updated_at", "2020-04-20 05:41:41.203921"]]
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+Completed 200 OK in 29ms (Views: 0.4ms | ActiveRecord: 4.2ms | Allocations: 2210)
+
+
+Started GET "/quizzes" for ::1 at 2020-04-19 22:48:59 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by QuizzesController#index as */*
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quizzes_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 2027)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 22:49:11 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{"title"=>"bball", "num_of_questions"=>"5"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[36mQuiz Create (0.7ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "num_of_questions", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "bball"], ["num_of_questions", 5], ["created_at", "2020-04-20 05:49:11.259020"], ["updated_at", "2020-04-20 05:49:11.259020"]]
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/quizzes_controller.rb:13:in `create'
+Completed 200 OK in 13ms (Views: 1.0ms | ActiveRecord: 6.3ms | Allocations: 2207)
+
+
+Started POST "/quizzes" for ::1 at 2020-04-19 22:49:25 -0700
+Processing by QuizzesController#create as */*
+  Parameters: {"quiz"=>{"title"=>"soccer", "num_of_questions"=>""}}
+Completed 200 OK in 25ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3649)
+
+

@@ -13,20 +13,17 @@ class Quizzes {
         this.quizForm.addEventListener('submit', this.createQuiz.bind(this))
 
     }
-    
     createQuiz(e){
-       // console.log(this)
         e.preventDefault()
         const value = this.newQuizTitle.value;
         const num = this.newNumOfQuestions.value;
-      //  const num =   this.newNumOfQuestions.num,
-
+    
         this.adapter.createQuiz(value, num).then(quiz => {
             this.quizzes.push(new Quiz(quiz))
+            this.newQuizTitle.value = ''
+            this.newNumOfQuestions.value = ''
             this.render()
-           //console.log(quiz)
         })
-            //, num)
     }
     fetchAndLoadQuizzes(){
         this.adapter.getQuizzes().then(quizzes => {
@@ -39,11 +36,6 @@ class Quizzes {
 
     }
     render() {
-        //const quizzesString = console.log(quizzesString)
-       // const quizzesContainer = document.getElementById('quizzes-container')
        this.quizzesContainer.innerHTML = this.quizzes.map(quiz => quiz.renderLi()).join('')
-        //`${this.quizzes.map(quiz => <li>${quiz.title}</li>, <li>${quiz.num_of_questions}</li>)}`
-        //quizzesContainer.innerHTML = "my quizzes here"
-        //console.log('all quizzes', this.quizzes)
     }
 }
