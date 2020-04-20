@@ -19,4 +19,19 @@ class QuizzesAdapter {
         })
         .then(res => res.json())
     }
+    updateQuiz(value, id){
+        const quiz = {
+            title: value,
+           // num_of_questions: num,
+            //id: id,
+        }
+        return fetch(`${this.baseUrl}/id`, {
+             method: 'PATCH',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify({ quiz }),
+        })
+        .then(res => res.json())
+    }
 }

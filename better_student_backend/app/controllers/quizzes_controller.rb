@@ -20,7 +20,7 @@ class QuizzesController < ApplicationController
     end
     def destroy
         @quiz = Quiz.find(params[:id]).destroy
-        render json: {id: @quiz.id}
+        render json: {quizId: @quiz.id}
     end
     private 
     def quiz_params

@@ -5,6 +5,6 @@ class Quiz {
         this.num_of_questions = quizJSON.num_of_questions
     }
     renderLi(){
-        return `<li>${this.title}, ${this.num_of_questions}</li>`
+        return `<li data-id=${this.id}>${this.title}, ${this.num_of_questions}</li>`
     }
 }
